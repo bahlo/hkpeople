@@ -30,7 +30,7 @@ $ git clone github.com/bahlo/hkpeople
 $ dep ensure
 
 # Requires valid go install
-$ GOOS=linux GOARCH=arm GOARM=6 go build -o hkpeople-rpi .
+$ GOOS=linux GOARCH=arm GOARM=6 go build -o hkpeople-rpi cmd/hkpeople/main.go
 
 # Copy hkpeople-rpi to your raspberry and start it like describe above
 ```
